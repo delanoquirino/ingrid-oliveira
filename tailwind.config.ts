@@ -16,7 +16,11 @@ const config: Config = {
       colors: {
         primary: '#8E5A93',
         // ...
-      }
+      },
+      screens: {
+        'xs': '540px',
+        // => @media (min-width: 640px) { ... }
+        }
     },
   },
   plugins: [],

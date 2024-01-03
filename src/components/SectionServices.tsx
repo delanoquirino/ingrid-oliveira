@@ -24,7 +24,7 @@ export const SectionServices = (props: Props) => {
         </div>
       </div>
       <div>
-          <div className="grid grid-cols-2 md:grid-cols-4 mt-10 gap-4 ">
+          <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-4 mt-10 gap-4 ">
             {services.map((project, index) => (
               <CardService
                 key={index}
