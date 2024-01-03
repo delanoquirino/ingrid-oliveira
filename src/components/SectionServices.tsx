@@ -9,15 +9,15 @@ type Props = {};
 
 export const SectionServices = (props: Props) => {
   return (
-    <div className="max-w-6xl py-28 mx-auto p-4">
-      <div className="flex gap-8">
+    <div className="max-w-6xl py-12 md:py-28 mx-auto p-4">
+      <div className="flex flex-col md:flex-row md:gap-24 gap-4 ">
         <h2
-          className={` ${dancing.className} text-3xl sm:text-7xl text-primary flex-1`}
+          className={` ${dancing.className} text-3xl sm:text-7xl text-primary`}
         >
           Serviços
         </h2>
-        <div>
-          <h3 className="text-2xl sm:text-4xl font-bold">O que nós fazemos</h3>
+        <div className="flex-1">
+          <h3 className="text-xl sm:text-4xl font-bold">O que nós fazemos</h3>
           <p className="text-base sm:text-lg">
             Ter uma boa aparência só pode fazer você se sentir melhor
           </p>

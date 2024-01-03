@@ -4,22 +4,22 @@ const services = [
       tag: "extensão",
       title:
         "Extensão de Cílios",
-      imageSrc: "/img/card1.png",
+      imageSrc: "/img/card1.jpg",
       
     },
     {
         
-        tag: "extensão",
+        tag: "manutenção",
         title:
-          "Extensão de cílios",
+          "Manutenção de cílios",
         imageSrc: "/img/card1.jpg",
         
       },
     {
         
-        tag: "extensão",
+        tag: "aplicação",
         title:
-          "Extensão de cílios",
+          "Cílios 3D/6D",
         imageSrc: "/img/card1.jpg",
         
       },

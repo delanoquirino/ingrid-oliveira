@@ -34,7 +34,7 @@ export const NavBar = (props: Props) => {
         </li>
       </ul>
       {showMenu && (
-        <ul className="fixed gap-4 inset-x-0 top-24 mx-4 py-2 flex flex-col items-center rounded-xl border-[2px]  border-primary md:hidden">
+        <ul className="fixed bg-white z-100 gap-4 inset-x-0 top-24 mx-4 py-2 flex flex-col items-center rounded-xl border-[2px]  border-primary md:hidden">
           <li className="hover:text-primary cursor-pointer transition duration-300 ease-in-out">
             Serviços
           </li>
