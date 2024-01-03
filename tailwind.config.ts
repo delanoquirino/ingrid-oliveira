@@ -15,6 +15,7 @@ const config: Config = {
       },
       colors: {
         primary: '#8E5A93',
+        secondary: '#F9F9F9',
         
       },
       screens: {

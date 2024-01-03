@@ -13,7 +13,7 @@ export const Header = (props: Props) => {
     <header style={{
       background: "linear-gradient(to right, #F9F9F9 60%, #DCC7DA 40%)",
     }}>
-      <div className="max-w-6xl mx-auto h-16 py-4 px-2 " >
+      <div className="max-w-5xl mx-auto h-16 py-4 px-2 " >
         <div className="flex w-full h-full justify-between items-center gap-2">
           <div className={` ${dancing.className} `}>Ingrid Oliveira</div>
           <div className="flex items-center gap-8 md:order-last">

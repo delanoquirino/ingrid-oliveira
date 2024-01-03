@@ -14,12 +14,12 @@ export const SectionHero = (props: Props) => {
         background: "linear-gradient(to right, #F9F9F9 60%, #DCC7DA 40%)",
       }}
     >
-      <div className="max-w-6xl mx-auto flex gap-8 flex-col p-4 md:flex-row">
+      <div className="max-w-5xl mx-auto flex gap-8 flex-col p-4 md:flex-row">
         <div className="flex-1 text-wrap">
           <h2 className={` ${dancing.className} md:text-5xl text-xl text-primary`}>
             Bem-vindo ao nosso estúdio
           </h2>
-          <h1 className="md:text-6xl text-3xl font-bold">
+          <h1 className="md:text-5xl lg:text-6xl text-3xl font-bold">
           Realce a beleza dos seus olhos com cílios lindos e naturais
           </h1>
           <button className=" bg-black mt-10 hover:bg-primary text-white transition duration-300 ease-in-out text-sm uppercase py-4 px-4 ">
