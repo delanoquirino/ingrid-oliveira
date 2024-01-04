@@ -1,6 +1,7 @@
 import { Header } from "@/components/Header";
 import { SectionAbout } from "@/components/SectionAbout";
 import { SectionHero } from "@/components/SectionHero";
+import { SectionPrice } from "@/components/SectionPrice";
 import { SectionServices } from "@/components/SectionServices";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <SectionHero />
       <SectionServices/>
       <SectionAbout/>
+      <SectionPrice/>
     </main>
   );
 }
