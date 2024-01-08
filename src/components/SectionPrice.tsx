@@ -10,31 +10,30 @@ export const SectionPrice = () => {
     >
       <div className="max-w-5xl py-12 md:py-28 mx-auto p-4">
         <div className="flex flex-col md:flex-row justify-center gap-8">
-        <div className="hidden flex-1 md:block pr-14 relative">
-          <Image
-            src="/img/price-img.jpg"
-            alt="extensão de cilios"
-            quality={100}
-            fill
-            sizes="100vw"
-            style={{
-              objectFit: "cover",
-            }}
-          />
-        </div>
-        <div className="md:hidden block relative h-[500px] w-full ">
-          <Image
-            src="/img/price-img.jpg"
-            alt="extensão de cilios"
-            quality={100}
-            fill
-            style={{
+          <div className="hidden flex-1 md:block pr-14 relative">
+            <Image
+              src="/img/price-img.jpg"
+              alt="extensão de cilios"
+              quality={100}
+              fill
+              sizes="100vw"
+              style={{
                 objectFit: "cover",
               }}
-          
-          />
-        </div>
-         
+            />
+          </div>
+          <div className="md:hidden block relative h-[500px] w-full ">
+            <Image
+              src="/img/price-img.jpg"
+              alt="extensão de cilios"
+              quality={100}
+              fill
+              style={{
+                objectFit: "cover",
+              }}
+            />
+          </div>
+
           <div className="flex flex-col gap-10">
             <div>
               <span className="text-primary uppercase font-semibold text-[10px] -tracking-tighter">
@@ -46,50 +45,56 @@ export const SectionPrice = () => {
             </div>
             <div className="flex flex-col gap-8">
               <div className="flex items-center justify-between w-full gap-4">
-                <p className="text-primary">
-                  Extensão Clássica < hr className="bg-black" />
-                  1h duração{" "}
-                </p>
+                <div>
+                  <p className="text-primary">Extensão Clássica</p>
+                  <hr className="text-black" />
+                  <p className="text-primary">1h duração</p>
+                </div>
                 <p className=" flex-1 border-dotted border-b-4 border-black"></p>
                 <p>$37</p>
               </div>
               <div className="flex items-center justify-between w-full gap-4">
-                <p className="text-primary">
-                  Extensão Clássica < hr className="text-black" />
-                  30min duração{" "}
-                </p>
+              <div>
+                  <p className="text-primary">Extensão Clássica</p>
+                  <hr className="text-black" />
+                  <p className="text-primary">1h duração</p>
+                </div>
                 <p className=" flex-1 border-dotted border-b-4 border-black"></p>
                 <p>$37</p>
               </div>
               <div className="flex items-center justify-between w-full gap-4">
-                <p className="text-primary">
-                  Extensão Clássica < hr className="text-black" />
-                  40min duração{" "}
-                </p>
+              <div>
+                  <p className="text-primary">Extensão Clássica</p>
+                  <hr className="text-black" />
+                  <p className="text-primary">1h duração</p>
+                </div>
                 <p className=" flex-1 border-dotted border-b-4 border-black"></p>
                 <p>$37</p>
               </div>
               <div className="flex items-center justify-between w-full gap-4">
-                <p className="text-primary">
-                  Extensão Clássica < hr className="text-black" />
-                  40min duração{" "}
-                </p>
+              <div>
+                  <p className="text-primary">Extensão Clássica</p>
+                  <hr className="text-black" />
+                  <p className="text-primary">1h duração</p>
+                </div>
                 <p className=" flex-1 border-dotted border-b-4 border-black"></p>
                 <p>$37</p>
               </div>
               <div className="flex items-center justify-between w-full gap-4">
-                <p className="text-primary">
-                  Extensão Clássica < hr className="text-black" />
-                  40min duração{" "}
-                </p>
+              <div>
+                  <p className="text-primary">Extensão Clássica</p>
+                  <hr className="text-black" />
+                  <p className="text-primary">1h duração</p>
+                </div>
                 <p className=" flex-1 border-dotted border-b-4 border-black"></p>
                 <p>$37</p>
               </div>
               <div className="flex items-center justify-between w-full gap-4">
-                <p className="text-primary">
-                  Extensão Clássica < hr className="text-black" />
-                  40min duração{" "}
-                </p>
+              <div>
+                  <p className="text-primary">Extensão Clássica</p>
+                  <hr className="text-black" />
+                  <p className="text-primary">1h duração</p>
+                </div>
                 <p className=" flex-1 border-dotted border-b-4 border-black"></p>
                 <p>$37</p>
               </div>
