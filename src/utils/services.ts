@@ -12,7 +12,7 @@ const services = [
         tag: "manutenção",
         title:
           "Manutenção de cílios",
-        imageSrc: "/img/card1.jpg",
+        imageSrc: "/img/card2.jpg",
         
       },
     {
@@ -20,15 +20,15 @@ const services = [
         tag: "aplicação",
         title:
           "Cílios 3D/6D",
-        imageSrc: "/img/card1.jpg",
+        imageSrc: "/img/card3.jpg",
         
       },
     {
         
-        tag: "extensão",
+        tag: "design",
         title:
-          "Extensão de cílios",
-        imageSrc: "/img/card1.jpg",
+          "sobrancelha",
+        imageSrc: "/img/card4.jpg",
         
       },
     
