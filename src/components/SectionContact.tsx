@@ -8,10 +8,10 @@ export const SectionContact = () => {
           <span className="text-primary uppercase font-semibold text-[10px] -tracking-tighter">
             Atendimento
           </span>
-          <p className="text-base sm:text-lg font-semibold mt-4">
+          <p className="text-[10px] xs:text-base font-semibold mt-4">
             segunda a sexta 9:00 - 17:00
           </p>
-          <p className="text-base sm:text-lg font-semibold">
+          <p className="text-[10px] xs:text-base font-semibold">
             sabado: 9:00 am - 15:00
           </p>
         </div>
@@ -21,11 +21,11 @@ export const SectionContact = () => {
           </span>
           <div className="flex items-center mt-4 gap-4">
             <FaInstagram className="text-primary" />
-            <p>_studioingridoliveira</p>
+            <p className="text-[10px] xs:text-base">_studioingridoliveira</p>
           </div>
           <div className="flex items-center gap-4">
             <FaWhatsapp className="text-primary " />
-            <p>86 99433-7055</p>
+            <p className="text-[10px] xs:text-base" >86 99433-7055</p>
           </div>
         </div>
       </div>

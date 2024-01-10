@@ -61,17 +61,21 @@ export const Gallery = () => {
       height: isSmallScreen ? "70%" : isMediumScreen ? "70%" : "100%",
     };
   };
+
   return (
-   
-      <ImageList
-        variant="woven"
-        cols={getCols()}
-        style={getStyle()}
-        className="mx-auto"
-        
-      >
-        {images.map((image, index) => (
-          <ImageListItem key={index}>
+    <ImageList
+      variant="woven"
+      cols={getCols()}
+      style={getStyle()}
+      className="mx-auto"
+    >
+      {images.map((image, index) => (
+        <div
+          className=""
+          key={index}
+         
+        >
+          <ImageListItem>
             <img
               srcSet={`${image.img}?w=161&fit=crop&auto=format&dpr=2 2x`}
               src={`${image.img}?w=161&fit=crop&auto=format`}
@@ -80,8 +84,8 @@ export const Gallery = () => {
               loading="lazy"
             />
           </ImageListItem>
-        ))}
-      </ImageList>
-    
+        </div>
+      ))}
+    </ImageList>
   );
 };

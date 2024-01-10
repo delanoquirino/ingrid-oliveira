@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import { Dancing_Script } from "next/font/google";
 import { CardService } from "./CardService";
@@ -10,7 +11,7 @@ type Props = {};
 export const SectionServices = (props: Props) => {
   return (
     <section className="max-w-5xl py-12 md:py-28 mx-auto p-4">
-      <div className="flex flex-col md:flex-row md:gap-24 gap-4 ">
+      <div className="flex flex-col md:flex-row md:gap-24 gap-4 " >
         <h2
           className={` ${dancing.className} text-3xl sm:text-7xl text-primary`}
         >

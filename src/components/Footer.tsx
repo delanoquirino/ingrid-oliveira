@@ -52,13 +52,13 @@ export const Footer = () => {
                 Bairro Campestre
               </p>
             </div>
-            <div className="flex items-center justify-start gap-2 whitespace-nowrap">
+            <div className="flex items-center justify-start gap-2 xs:whitespace-nowrap">
               <FaClock className="text-primary" />
               <p className="text-white text-[12px] md:text-base">
                 seg-sexta 9:00 - 17:00 /sab 9:00 - 15:00
               </p>
             </div>
-            <div className="flex items-center justify-start gap-2 whitespace-nowrap">
+            <div className="flex items-center justify-start gap-2 xs:whitespace-nowrap">
               <FaWhatsapp className="text-primary" />
               <p className="text-white text-[12px] md:text-base">
                 86 99433-7055
