@@ -22,15 +22,18 @@ export const Footer = () => {
           Fornecemos extensões de Cilíos com técnicas avançadas para lhe dar a aparência bonita que você deseja.
           </p>
           <div className="flex items-center gap-4">
-            <FaInstagram className="text-white hover:text-primary " />
-            <FaWhatsapp className="text-white hover:text-primary" />
+          <Link href="https://www.instagram.com/_studioingridoliveira/" target="_blank"><FaInstagram className="text-white hover:text-primary " /></Link>
+            
+            <Link href="https://wa.me/5586994337055?text=Ol%C3%A1+Estou+interessado%28a%29+em+agendar+um+hor%C3%A1rio+para+coloca%C3%A7%C3%A3o+de+c%C3%ADlios+ou+design+de+sobrancelhas.+Qual+seria+a+disponibilidade+para+os+pr%C3%B3ximos+dias%3F++Obrigado%28a%29%21+" target="_blank">
+              <FaWhatsapp className="text-white hover:text-primary" />
+            </Link>
           </div>
         </div>
         <div className="flex flex-col gap-2 text-white ">
           <Link href="#home" className="text-[12px] md:text-base hover:text-primary">
             Home
           </Link>
-          <Link href="#service" className="text-[12px] md:text-base hover:text-primary">
+          <Link href="#services" className="text-[12px] md:text-base hover:text-primary">
             Serviços
           </Link>
           <Link href="#about" className="text-[12px] md:text-base hover:text-primary">
@@ -69,7 +72,8 @@ export const Footer = () => {
         <div className=" flex flex-col gap-4">
             <p className="font-bold text-white">Agendar</p>
           <button className=" bg-primary hover:bg-[#282828] border-2 border-[#282828] hover:border-primary hover:text-primary text-white transition duration-300 ease-in-out text-[10px] md:text-xs uppercase py-1 px-2 md:py-2 md:px-4 ">
-            Consulta
+          <Link href="https://wa.me/5586994337055?text=Ol%C3%A1+Estou+interessado%28a%29+em+agendar+um+hor%C3%A1rio+para+coloca%C3%A7%C3%A3o+de+c%C3%ADlios+ou+design+de+sobrancelhas.+Qual+seria+a+disponibilidade+para+os+pr%C3%B3ximos+dias%3F++Obrigado%28a%29%21+" target="_blank">Agendar</Link>
+
           </button>
         </div>
       </div>

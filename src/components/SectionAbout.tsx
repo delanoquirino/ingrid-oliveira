@@ -2,7 +2,7 @@ import React from "react";
 
 export const SectionAbout = () => {
   return (
-    <section className=" bg-secondary">
+    <section id="about" className=" bg-secondary">
       <div className="flex flex-col sm:flex-row items-start gap-8 sm:items-center justify-center max-w-5xl py-12 md:py-28 mx-auto p-4">
         <div className="flex-1 ">
           <span className="text-primary uppercase font-semibold text-[10px] -tracking-tighter">

@@ -3,7 +3,7 @@ import React from "react";
 
 export const SectionPrice = () => {
   return (
-    <section
+    <section id="price"
       style={{
         background: "linear-gradient(to left, #F9F9F9 70%, #DCC7DA 30%)",
       }}
