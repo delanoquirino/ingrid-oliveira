@@ -18,9 +18,7 @@ export const SectionHero = (props: Props) => {
       }}
     >
       <div id="hero" className="max-w-5xl mx-auto flex gap-8 flex-col p-4 md:flex-row">
-        <motion.div className="flex-1 text-wrap" initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}>
+        <div className="flex-1 text-wrap" >
           <h2 className={` ${dancing.className} md:text-5xl text-xl text-primary`}>
             Bem-vindo ao nosso estúdio
           </h2>
@@ -31,10 +29,8 @@ export const SectionHero = (props: Props) => {
           <Link href="https://wa.me/5586994337055?text=Ol%C3%A1+Estou+interessado%28a%29+em+agendar+um+hor%C3%A1rio+para+coloca%C3%A7%C3%A3o+de+c%C3%ADlios+ou+design+de+sobrancelhas.+Qual+seria+a+disponibilidade+para+os+pr%C3%B3ximos+dias%3F++Obrigado%28a%29%21+" target="_blank">Agendar Consulta</Link>
 
           </button>
-        </motion.div>
-        <motion.div className="hidden flex-1 md:block pr-14 relative"  initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}>
+        </div>
+        <div className="hidden flex-1 md:block pr-14 relative" >
           <Image
             src="/img/cilios-image.jpg"
             alt="extensão de cilios"
@@ -45,10 +41,8 @@ export const SectionHero = (props: Props) => {
               objectFit: "cover",
             }}
           />
-        </motion.div>
-        <motion.div className="md:hidden block relative h-[300px] w-full " initial={{ opacity: 0, scale: 0.5 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}>
+        </div>
+        <div className="md:hidden block relative h-[300px] w-full " >
           <Image
             src="/img/cilios-image.jpg"
             alt="extensão de cilios"
@@ -59,7 +53,7 @@ export const SectionHero = (props: Props) => {
               }}
           
           />
-        </motion.div>
+        </div>
       
       </div>
     </section>

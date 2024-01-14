@@ -14,8 +14,8 @@ export default function Home() {
       <SectionServices />
       <SectionAbout />
       <SectionPrice />
-      <SectionGallery />
       <SectionContact />
+      <SectionGallery />
       <Footer />
     </main>
   );
