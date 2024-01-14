@@ -1,7 +1,7 @@
 "use client";
 
 /* eslint-disable @next/next/no-img-element */
-import { Grid, ImageList, ImageListItem } from "@mui/material";
+import { ImageList, ImageListItem } from "@mui/material";
 
 import useMediaQuery from "@mui/material/useMediaQuery";
 

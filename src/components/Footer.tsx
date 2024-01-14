@@ -29,23 +29,7 @@ export const Footer = () => {
             </Link>
           </div>
         </div>
-        <div className="flex flex-col gap-2 text-white ">
-          <Link href="#home" className="text-[12px] md:text-base hover:text-primary">
-            Home
-          </Link>
-          <Link href="#services" className="text-[12px] md:text-base hover:text-primary">
-            Serviços
-          </Link>
-          <Link href="#about" className="text-[12px] md:text-base hover:text-primary">
-            Sobre
-          </Link>
-          <Link href="#price" className="text-[12px] md:text-base hover:text-primary">
-            Preços
-          </Link>
-          <Link href="#gallery" className="text-[12px] md:text-base hover:text-primary">
-            Galeria
-          </Link>
-        </div>
+        
         <div className="">
           <p className="font-bold text-white">Contato</p>
           <div className="flex flex-col gap-2">
